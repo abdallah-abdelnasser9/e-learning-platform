@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { useAuthStore } from '../stores'
+import { useAuthStore } from '../stores/index.js'
 
 export default {
   name: 'Header',

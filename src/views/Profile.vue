@@ -79,7 +79,7 @@
 
 <script>
 import { computed } from 'vue'
-import { useAuthStore, useCoursesStore } from '../stores'
+import { useAuthStore, useCoursesStore } from '../stores/index.js'
 
 export default {
   name: 'Profile',

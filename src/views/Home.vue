@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import { useCoursesStore } from '../stores'
+import { useCoursesStore } from '../stores/index.js'
 import CourseCard from '../components/CourseCard.vue'
 
 export default {

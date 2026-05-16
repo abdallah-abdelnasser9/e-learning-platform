@@ -50,7 +50,7 @@
 <script>
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore, useCoursesStore } from '../stores'
+import { useAuthStore, useCoursesStore } from '../stores/index.js'
 
 export default {
   name: 'Dashboard',

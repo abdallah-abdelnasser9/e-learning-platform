@@ -20,7 +20,7 @@
 
 <script>
 import { ref, computed } from 'vue'
-import { useCoursesStore } from '../stores'
+import { useCoursesStore } from '../stores/index.js'
 import CourseCard from '../components/CourseCard.vue'
 import SearchBar from '../components/SearchBar.vue'
 

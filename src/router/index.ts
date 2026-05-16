@@ -5,7 +5,7 @@ import CourseDetail from '../views/CourseDetail.vue'
 import Dashboard from '../views/Dashboard.vue'
 import Profile from '../views/Profile.vue'
 import Learn from '../views/Learn.vue'
-import { useAuthStore } from '../stores'
+import { useAuthStore } from '../stores/index.js'
 
 const routes = [
   {
